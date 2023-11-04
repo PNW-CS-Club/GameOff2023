@@ -114,7 +114,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
+        y: 160
         width: 32
         height: 32
       alignment: 9
@@ -135,7 +135,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
+        y: 128
         width: 32
         height: 32
       alignment: 9
@@ -156,7 +156,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 96
         width: 32
         height: 32
       alignment: 9
@@ -168,6 +168,69 @@ TextureImporter:
       bones: []
       spriteID: 0e428525455099e42825cb4c50996ffe
       internalID: 500450283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8781113e12817f14e9c563b287f4e708
+      internalID: 83885127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Tiles_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85dc6c21622f7d4e9bf34f109c59f87
+      internalID: 2135500484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Isometric Tiles_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b073ef47cd04ccd42b33f242e456850d
+      internalID: 1336355599
       vertices: []
       indices: 
       edges: []
@@ -186,6 +249,9 @@ TextureImporter:
       Isometric Tiles_0: -1785822369
       Isometric Tiles_1: -2032598367
       Isometric Tiles_2: 500450283
+      Isometric Tiles_3: 83885127
+      Isometric Tiles_4: 2135500484
+      Isometric Tiles_5: 1336355599
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
