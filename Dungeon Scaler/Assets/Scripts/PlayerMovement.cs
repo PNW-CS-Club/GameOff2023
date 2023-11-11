@@ -5,23 +5,24 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public InputAction move;
-    public Vector2 position;
+    
+    private Vector2 moveInput; // x and y inputs from input system
+    public float moveSpeed = 1f; // Determines the movement speed of the player
+    private Rigidbody2D rigidBody; // Rigid body used for physics / collision
     // Start is called before the first frame update
-    void Start()
-    {
-        //enables movement action map
-        move.Enable();
+    void Start(){
+        rigidBody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        /*
-        var moveDirection = move.ReadValue<Vector2>();
-        position += moveDirection * 1.2f * Time.deltaTime;
-        transform.Translate(position);
-        */
+    //void Update(){}
+
+    void FixedUpdate(){
+        rigidBody.MovePosition( rigidBody.position + moveInput * moveSpeed * Time.fixedDeltaTime );
+    }
+
+    void OnMove(InputValue value){
+        moveInput = value.Get<Vector2>(); // Read player movement into moveInput
     }
     
 }
