@@ -25,7 +25,7 @@ public class WeaponController : MonoBehaviour
      */
 
     SpriteRenderer sr;
-    Player player;  //weapon controller is attached too
+    Player player;  //weapon controller is attached to player, so it can access player script
     GameObject weaponObject; //weapon that is passed to this script
     public WeaponSword weapon; //script that controls the weapon (i think this'll be renamed to WeaponSword, or WeaponBow etc etc, idk yet)  TODO:
     bool hasWeapon = false;
@@ -48,7 +48,7 @@ public class WeaponController : MonoBehaviour
         }
     }
 
-    public void weaponContro(Vector3 dir) {  //change to vector2 maybe? idk havent tested yet
+    public void weaponControl(Vector3 dir) {  //change to vector2 maybe? idk havent tested yet
         if (hasWeapon) {
             weapon.weaponDirControl(dir);
             flipWeapon(dir);
@@ -58,8 +58,8 @@ public class WeaponController : MonoBehaviour
 
     public void setWeapon(GameObject obj) {
         weaponObject = (GameObject)Instantiate (obj, this.transform.position, this.transform.rotation);
-        weaponObject.transfrom.position = new Vector3(weaponObject.transform.position.x, weaponObject.transform.position.y - 0.4f);
-        weaponObject = transfrom.parent = this.transform;
+        weaponObject.transform.position = new Vector3(weaponObject.transform.position.x, weaponObject.transform.position.y - 0.4f);
+        weaponObject = transform.parent = this.transform;
         weapon = weaponObject.GetComponent<WeaponSword>();
         hasWeapon = true;
     }
@@ -72,7 +72,7 @@ public class WeaponController : MonoBehaviour
 
     void flipWeapon(Vector3 posToFace) {
         //flips weapon so it'll face the provided vector direction(player dir) 
-        if (posToFace.x > this.trasnform.postiion.x) {   //TODO test, 
+        if (posToFace.x > this.transform.postiion.x) {   //TODO test, 
             //facing right i think
             sr.flipY = false; 
         } else {
