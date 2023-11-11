@@ -25,7 +25,11 @@ public class WeaponController : MonoBehaviour
      */
 
     SpriteRenderer sr;
+<<<<<<< Updated upstream
     Player player;  //weapon controller is attached to player, so it can access player script
+=======
+    Player player;  //weapon controller is attached too player, so it can access player script
+>>>>>>> Stashed changes
     GameObject weaponObject; //weapon that is passed to this script
     public WeaponSword weapon; //script that controls the weapon (i think this'll be renamed to WeaponSword, or WeaponBow etc etc, idk yet)  TODO:
     bool hasWeapon = false;
