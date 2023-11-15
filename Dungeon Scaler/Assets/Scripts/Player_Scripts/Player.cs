@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 //using UnityEngine.InputSystem; // Currently not being used in this file, implement later for consistency
 
+public enum Damage{
+        PlayerHurt = 1, //damage dealt to player when hit by enemy
+        SwordDamage = 1 //damage dealt by sword weapon
+    }
+
 public class Player : MonoBehaviour {
 
     [SerializeField] private int maxHealth = 5;
     [SerializeField] private int currentHealth;
-
-    public int damage = 1; // public so for easy modification during development
-
     [SerializeField] private HealthBar healthBar;
 
     private void Start() {
@@ -28,7 +30,7 @@ public class Player : MonoBehaviour {
     }
 
     private void TakeDamage() {
-        currentHealth -= damage;
+        currentHealth -= (int)Damage.PlayerHurt;
         
         healthBar.SetHealth(currentHealth);
     }
