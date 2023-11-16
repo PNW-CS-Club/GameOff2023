@@ -24,13 +24,19 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        print("Before update: " + rigidBody.velocity); // this is showing that the velocity of the y component is -0.2
+        //this means that something is changing the y component before fixed update is run
         UpdateTargetDirection();
         RotateTowardsTarget();
+        
         SetVelocity();
+        print("After update: " + rigidBody.velocity); // sets velocity to 0 when enemy is not near player
     }
 
     private void UpdateTargetDirection()
     {
+        print("Is Aware: " + playerAwarenessController.AwareOfPlayer);
+        
         if (playerAwarenessController.AwareOfPlayer)
         {
             targetDirection = playerAwarenessController.DirectionToPlayer;
@@ -56,13 +62,16 @@ public class NewBehaviourScript : MonoBehaviour
 
     private void SetVelocity()
     {
+        
         if (targetDirection == Vector2.zero)
         {
+            //print(rigidBody.velocity);
             rigidBody.velocity = Vector2.zero;
+            //print(rigidBody.velocity);
         }
         else
         {
-            rigidBody.velocity = transform.up * speed;
+            rigidBody.velocity = targetDirection * speed;
         }
     }
 }
