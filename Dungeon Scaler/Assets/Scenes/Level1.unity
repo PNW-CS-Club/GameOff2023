@@ -1699,7 +1699,7 @@ GameObject:
   - component: {fileID: 686882290}
   m_Layer: 0
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: Tilemap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5768,9 +5768,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f66eb30e1db4a7f4cacd66460b31aea5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  relativePos: {x: 0, y: 0, z: 0}
   pos: {x: 0, y: 0, z: 0}
-  characterZ: 0
+  tilePos: {x: 0, y: 0, z: 0}
+  tileBase: {fileID: 0}
+  playerPos: {x: 0, y: 0, z: 0}
+  newZ: 0
+  spriteZ: 0
 --- !u!1 &1544680465
 GameObject:
   m_ObjectHideFlags: 0
@@ -6000,9 +6003,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1029356239}
     m_Modifications:
+    - target: {fileID: 2649060928863721149, guid: 78012baf83650c54b8d077d56cf03f97, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649060928863721149, guid: 78012baf83650c54b8d077d56cf03f97, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649060928863721149, guid: 78012baf83650c54b8d077d56cf03f97, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649060928863721149, guid: 78012baf83650c54b8d077d56cf03f97, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2649060928863721149, guid: 78012baf83650c54b8d077d56cf03f97, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5860863778041773202, guid: 78012baf83650c54b8d077d56cf03f97, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5860863778041773202, guid: 78012baf83650c54b8d077d56cf03f97, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6039,6 +6062,30 @@ PrefabInstance:
     - target: {fileID: 5860863778041773202, guid: 78012baf83650c54b8d077d56cf03f97, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919279055142956006, guid: 78012baf83650c54b8d077d56cf03f97, type: 3}
+      propertyPath: m_Size.x
+      value: 0.22483078
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919279055142956006, guid: 78012baf83650c54b8d077d56cf03f97, type: 3}
+      propertyPath: m_Size.y
+      value: 0.08125576
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919279055142956006, guid: 78012baf83650c54b8d077d56cf03f97, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0109066665
+      objectReference: {fileID: 0}
+    - target: {fileID: 5919279055142956006, guid: 78012baf83650c54b8d077d56cf03f97, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.01136085
+      objectReference: {fileID: 0}
+    - target: {fileID: 6818134635521325059, guid: 78012baf83650c54b8d077d56cf03f97, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6818134635521325059, guid: 78012baf83650c54b8d077d56cf03f97, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6827793541981535130, guid: 78012baf83650c54b8d077d56cf03f97, type: 3}
       propertyPath: m_Name
