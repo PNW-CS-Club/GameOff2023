@@ -1,0 +1,742 @@
+fileFormatVersion: 2
+guid: e4888912ea9f2a242b3a1c5a2343a25a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: iso_tiles_colliders_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 0}
+        - {x: -16, y: -7}
+        - {x: -16, y: -9}
+        - {x: 0, y: -1}
+        - {x: 16, y: -9}
+        - {x: 16, y: -7}
+        - {x: 2, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ddd0b1060b68f448d6ffe46a8f647e
+      internalID: -1284604468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 1}
+        - {x: 0, y: -1}
+        - {x: 16, y: -9}
+        - {x: 16, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cd1f1aacfc12a40a38001c6aa54936
+      internalID: -1342639227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -7}
+        - {x: -16, y: -9}
+        - {x: 0, y: -1}
+        - {x: 0, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b6c5bda00be6744a48e6b33bfdfd38
+      internalID: -1335331385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: -8}
+        - {x: -16, y: -15}
+        - {x: -16, y: -16}
+        - {x: -14, y: -16}
+        - {x: 0, y: -9}
+        - {x: 14, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -15}
+        - {x: 2, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e57f0cc2427d24aa3fc729b5226598
+      internalID: 721818894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -7}
+        - {x: 0, y: -9}
+        - {x: 14, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80329ca5580272e42a52b48eb261540e
+      internalID: -91136124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -15}
+        - {x: -16, y: -16}
+        - {x: -14, y: -16}
+        - {x: 0, y: -9}
+        - {x: 0, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37dc884ec004524c862f0c78c3cf5c7
+      internalID: -1519060292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -4}
+        - {x: -8, y: -11}
+        - {x: -8, y: -13}
+        - {x: 8, y: -5}
+        - {x: 16, y: -9}
+        - {x: 16, y: -7}
+        - {x: 10, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ca26514fe346e4c8719231a044ebdc
+      internalID: -1649120280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -3}
+        - {x: 8, y: -5}
+        - {x: 16, y: -9}
+        - {x: 16, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f814aa99ffac44fa0a4cfd79ce4c91
+      internalID: -112372789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -11}
+        - {x: -8, y: -13}
+        - {x: 8, y: -5}
+        - {x: 8, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76df2ed39d602a94097b43a4a7a7c09b
+      internalID: 70491160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: -4}
+        - {x: -16, y: -7}
+        - {x: -16, y: -9}
+        - {x: -8, y: -5}
+        - {x: 8, y: -13}
+        - {x: 8, y: -11}
+        - {x: -6, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef210fa76d02f643a110afe2654fed0
+      internalID: 693966320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -7}
+        - {x: -16, y: -9}
+        - {x: -8, y: -5}
+        - {x: -8, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3189496e2f411945aa584ec6edd9b3c
+      internalID: 1852791498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -3}
+        - {x: -8, y: -5}
+        - {x: 8, y: -13}
+        - {x: 8, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cd987f1f7c33047a525005f78f218a
+      internalID: 1317212850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 0}
+        - {x: -8, y: -3}
+        - {x: -8, y: -5}
+        - {x: 0, y: -1}
+        - {x: 16, y: -9}
+        - {x: 16, y: -7}
+        - {x: 2, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2043b94bf21cd664f94203042c49ccca
+      internalID: -1217661676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -3}
+        - {x: -8, y: -5}
+        - {x: 0, y: -1}
+        - {x: 0, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30859e668ab6a44a9f8c504f199f98a
+      internalID: -2088339347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 0}
+        - {x: -16, y: -7}
+        - {x: -16, y: -9}
+        - {x: 0, y: -1}
+        - {x: 8, y: -5}
+        - {x: 8, y: -3}
+        - {x: 2, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bb36ecf52aef843bacddd65f047c23
+      internalID: -199082662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 1}
+        - {x: 0, y: -1}
+        - {x: 8, y: -5}
+        - {x: 8, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc12d8d657da4742849bbd41da8494f
+      internalID: -259925186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -4}
+        - {x: -8, y: -8}
+        - {x: -8, y: -9}
+        - {x: 0, y: -13}
+        - {x: 8, y: -9}
+        - {x: 8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1558c8f22673a46bcfb5779908fa8f
+      internalID: -478121289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 14, y: 8}
+        - {x: 12, y: 7}
+        - {x: 0, y: -11}
+        - {x: 0, y: -16}
+        - {x: 1, y: -16}
+        - {x: 13, y: 2}
+        - {x: 16, y: 7}
+        - {x: 16, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80751b9cbc16b544383c760eb3c281c5
+      internalID: 1455440463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 8}
+        - {x: -16, y: 7}
+        - {x: -13, y: 2}
+        - {x: -1, y: -16}
+        - {x: 0, y: -16}
+        - {x: 0, y: -11}
+        - {x: -12, y: 7}
+        - {x: -14, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ada8b472e2c60d4b9e9fcb5c65ce337
+      internalID: 184729822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -1}
+        - {x: -2, y: -1}
+        - {x: -16, y: -8}
+        - {x: -16, y: -9}
+        - {x: -2, y: -16}
+        - {x: 2, y: -16}
+        - {x: 16, y: -9}
+        - {x: 16, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f9200df19489145a589a0a0b832393
+      internalID: 228886246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 7}
+        - {x: -15, y: 5}
+        - {x: -1, y: -16}
+        - {x: 1, y: -16}
+        - {x: 0, y: -14}
+        - {x: -14, y: 7}
+        - {x: -16, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2324b46c9b2d6844c8f5205fa61abb35
+      internalID: -1680465355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iso_tiles_colliders_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 14, y: 7}
+        - {x: 0, y: -14}
+        - {x: -1, y: -16}
+        - {x: 1, y: -16}
+        - {x: 15, y: 5}
+        - {x: 16, y: 7}
+        - {x: 16, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7948680d3ca3a1840b922fe618244c4a
+      internalID: 420308633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      iso_tiles_colliders_0: -1284604468
+      iso_tiles_colliders_1: -1342639227
+      iso_tiles_colliders_10: 1852791498
+      iso_tiles_colliders_11: 1317212850
+      iso_tiles_colliders_12: -1217661676
+      iso_tiles_colliders_13: -2088339347
+      iso_tiles_colliders_14: -199082662
+      iso_tiles_colliders_15: -259925186
+      iso_tiles_colliders_16: -478121289
+      iso_tiles_colliders_17: 1455440463
+      iso_tiles_colliders_18: 184729822
+      iso_tiles_colliders_19: 228886246
+      iso_tiles_colliders_2: -1335331385
+      iso_tiles_colliders_20: -1680465355
+      iso_tiles_colliders_21: 420308633
+      iso_tiles_colliders_22: 847097629
+      iso_tiles_colliders_3: 721818894
+      iso_tiles_colliders_4: -91136124
+      iso_tiles_colliders_5: -1519060292
+      iso_tiles_colliders_6: -1649120280
+      iso_tiles_colliders_7: -112372789
+      iso_tiles_colliders_8: 70491160
+      iso_tiles_colliders_9: 693966320
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
