@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Isometric Tiles_2
+  m_Name: iso_tiles_colliders_9
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 284422308, guid: 5aab2260eea82c84e9694d6fcf9639bd, type: 3}
+  m_Sprite: {fileID: 693966320, guid: 679de513acc09a34ab3d9f21799cdefe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
