@@ -10,13 +10,10 @@ public class SortSprite : MonoBehaviour
     public TileBase tileBase; //debug
     public Vector3Int playerPos; //debug
     public float newZ; //debug
-    public int spriteZ = 0;
 
-    Grid grid;
     Tilemap tilemap;
 
     void Start() {
-        grid = GameObject.FindWithTag("Grid").GetComponent<Grid>();
         tilemap = GameObject.FindWithTag("Tilemap").GetComponent<Tilemap>();
     }
 
