@@ -5638,6 +5638,7 @@ GameObject:
   - component: {fileID: 1491277756}
   - component: {fileID: 1491277755}
   - component: {fileID: 1491277754}
+  - component: {fileID: 1491277757}
   m_Layer: 0
   m_Name: Pixel Perfect Camera
   m_TagString: Untagged
@@ -5731,6 +5732,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1491277757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491277753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d84609efc7f705e4cb8a604f629bf45c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followTarget: {fileID: 1495305445}
 --- !u!1 &1495305444 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6827793541981535130, guid: 78012baf83650c54b8d077d56cf03f97, type: 3}
