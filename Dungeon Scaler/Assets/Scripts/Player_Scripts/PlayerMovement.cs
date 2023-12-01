@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     
     private Vector2 moveInput; // x and y inputs from input system
-    public float moveSpeed = 1f; // Determines the movement speed of the player
+    public float moveSpeed = 1.5f; // Determines the movement speed of the player
     private Rigidbody2D rigidBody; // Rigid body used for physics / collision
     // Start is called before the first frame update
     void Start(){
@@ -23,6 +23,8 @@ public class PlayerMovement : MonoBehaviour
 
     void OnMove(InputValue value){
         moveInput = value.Get<Vector2>(); // Read player movement into moveInput
+        moveInput.x *= 1.5f;
+        moveInput.y *= 1.5f;
     }
     
 }
